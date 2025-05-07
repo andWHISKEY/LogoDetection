@@ -18,9 +18,11 @@ YOLOv11s 모델을 기반으로 학습된 best.pt를 사용하여 로고를 탐�
 pip install -r requirements.txt
 
 3️⃣ YOLO 모델 실행 방법
+
 python yolo_inference.py
 
 4️⃣ yolo_inference.py 코드 설명
+
 YOLO 모델을 사용하여 이미지 속 로고를 감지한 후, 바운딩 박스 기준으로 Crop된 이미지를 반환합니다.Crop된 이미지는 바운딩 박스보다 마진(여백)을 추가하여, 로고가 짤리지 않도록 처리했습니당.
 
 문의가 있다면 서혜교/ markhyegyo@gmail.com 로 연락주세요. 자리에 바로 오셔도 좋습니다!
